@@ -77,7 +77,7 @@ public class Insomnia {
             event.result = EntityPlayer.EnumStatus.OTHER_PROBLEM;
 
             // Then send our own
-            entityPlayer.addChatComponentMessage(new ChatComponentTranslation("tile.bed.insomnia"));
+            entityPlayer.addChatComponentMessage(new ChatComponentTranslation(tile.bed.insomnia));
         } else {
             event.result = enumStatus;
         }
